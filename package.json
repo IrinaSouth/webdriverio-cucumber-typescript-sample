@@ -1,0 +1,52 @@
+{
+  "name": "tfs-smoke-test",
+  "version": "1.0.0",
+  "description": "WebdriverIO tests with Cucumber plugin",
+  "scripts": {
+    "start-chromedriver": "yarn run chromedriver",
+    "test-ci": "yarn run wdio wdio.ci.conf.js",
+    "test": "yarn run wdio wdio.conf.js",
+    "test:validate": "tslint 'src/step_definitions/*.ts' 'src/support/pages/*.ts' 'src/support/services/*.ts'"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "test",
+    "selenium"
+  ],
+  "license": "TWG",
+  "dependencies": {
+    "@types/underscore": "^1.8.9",
+    "chai": "~4.1.2",
+    "wdio-cucumber-framework": "~2.2.0",
+    "wdio-spec-reporter": "~0.1.2",
+    "webdriverio": "4.13.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/chai": "^4.1.7",
+    "@types/cucumber": "^4.0.4",
+    "@types/webdriverio": "^4.13.0",
+    "@wdio/logger": "^5.0.0-beta.5",
+    "chromedriver": "^2.42.1",
+    "escodegen": "^1.9.1",
+    "espree": "^3.5.4",
+    "estraverse": "^4.2.0",
+    "glob": "^7.1.2",
+    "jsdoc": "^3.5.5",
+    "lodash": "latest",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "mustache": "^3.0.1",
+    "tmp": "0.0.33",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3",
+    "uglify-js": "^3.3.25",
+    "underscore": "^1.9.1",
+    "utils": "^0.3.1",
+    "wdio-chromedriver-service": "^0.1.3",
+    "wdio-multiple-cucumber-html-reporter": "^0.3.2",
+    "wdio-screenshot": "^0.6.0"
+  }
+}
