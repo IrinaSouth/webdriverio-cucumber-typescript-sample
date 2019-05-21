@@ -17,6 +17,6 @@ WebdriverIO used is Version 4 [WebdriverIO](http://v4.webdriver.io/)
     ```
 3. To run a specific feature file add '--spec' e.g.
     ```
-    yarn run wdio wdio.ci.conf.js --spec ./src/features/CPUandThreshold.feature
+    yarn run wdio wdio.ci.conf.js --spec ./src/features/WebSmokeTest.feature
     
 baseUrl can be set in wdio.ci.conf.js
