@@ -20,5 +20,5 @@ WebdriverIO used is Version 4 [WebdriverIO](http://v4.webdriver.io/)
     yarn run wdio wdio.ci.conf.js --spec ./src/features/WebSmokeTest.feature
     
 baseUrl can be set in wdio.ci.conf.js
-```
-Test report generated in tmp/report/index.html
+
+Test report path ```tmp/report/index.html
