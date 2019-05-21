@@ -9,14 +9,4 @@ After(async (scenarioResult) => {
     return scenarioResult.status;
 });
 
-// code left as an example of how to use a feature toggle
-// Before({tags: '@enable_FEATURE_ATS_WEB_START_END_DATES_ON'}, async function ()  {
-//     await featureToggleService.unlockFeature('FEATURE_ATS_WEB_START_END_DATES');
-//     await featureToggleService.enableFeature('FEATURE_ATS_WEB_START_END_DATES');
-// });
-//
-// After({tags: '@enable_FEATURE_ATS_WEB_START_END_DATES_ON'}, async function ()  {
-//     await featureToggleService.disableFeature('FEATURE_ATS_WEB_START_END_DATES');
-//     await featureToggleService.lockFeature('FEATURE_ATS_WEB_START_END_DATES');
-// });
 
